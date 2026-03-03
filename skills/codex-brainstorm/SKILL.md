@@ -95,6 +95,18 @@ Structure per round:
 | `techniques.md`  | Attack/defense techniques      |
 | `equilibrium.md` | Equilibrium determination flow |
 
+## Red Flags - STOP
+
+If you catch yourself thinking these, you're rationalizing:
+
+| Thought | Reality |
+|---------|---------|
+| "This is too simple to brainstorm" | Simple-seeming problems often have hidden complexity. Brainstorm reveals it. |
+| "I already know the answer" | Knowing the answer means you're anchored. Brainstorm finds what you missed. |
+| "Just need to code, not discuss" | Implementation without exploration leads to rework. |
+| "Codex will just agree with me" | Only if you feed conclusions. Independent research finds disagreements. |
+| "Skip debate, go straight to consensus" | Consensus without adversarial challenge is groupthink. |
+
 ## Example
 
 ```

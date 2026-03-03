@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/namespace-hint.sh"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/session-primer.sh"
           }
         ]
       }
@@ -49,6 +49,10 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-guard.sh"
+          },
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/persistent-loop.sh"
           }
         ]
       }

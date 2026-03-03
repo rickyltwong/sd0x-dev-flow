@@ -102,3 +102,16 @@ Action: /codex-architect -> /codex-implement -> /verify -> /codex-review-fast ->
 Input: This code needs refactoring
 Action: /simplify -> streamline code, eliminate duplication -> /codex-review-fast
 ```
+
+## Red Flags - STOP
+
+If you catch yourself thinking these, you're rationalizing:
+
+| Thought | Reality |
+|---------|---------|
+| "Skip design, start coding" | Code without design = rework. Architecture review catches issues early. |
+| "Tests can come later" | Tests after code pass immediately and prove nothing. Write tests during development. |
+| "Too small for the full workflow" | Small changes break things too. The workflow catches what you miss. |
+| "I'll review my own code" | Self-review has blind spots. Use `/codex-review-fast` for independent review. |
+| "Just one more feature before review" | Scope creep. Review what you have, then continue. |
+| "Design doc is overkill" | Even a 2-minute `/codex-architect` call prevents wrong turns. |

@@ -54,7 +54,8 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/project-brief` | PM/CTO executive summary | Design |
 | `/codex-architect` | Architecture advice | Design |
 | `/codex-implement` | Codex writes code | Development |
-| `/bug-fix` | Bug fix workflow | Bug fixing |
+| `/bug-fix` | Bug fix workflow (systematic debugging) | Bug fixing |
+| `/tdd` | Test-driven development (RED-GREEN-REFACTOR) | Development |
 | `/feature-dev` | Feature development | Development |
 | `/feature-verify` | Feature verification (READ-ONLY) | Development |
 | `/code-explore` | Code exploration | Understanding |
@@ -65,6 +66,7 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/next-step` | Change-aware next step advisor | Development |
 | `/risk-assess` | Uncommitted code risk assessment | Development |
 | `/verify` | Run tests | Development |
+| `/verify-completion` | Evidence-based completion gate | Before claiming done |
 | `/codex-review-fast` | Quick review (diff) | **Required** |
 | `/codex-review` | Full review (lint+build) | Important PR |
 | `/codex-review-branch` | Full branch review | Important PR |
@@ -105,6 +107,9 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/obsidian-cli` | Obsidian vault integration via CLI | Tooling |
 | `/op-session` | Initialize 1Password CLI session | Tooling |
 | `/skill-health-check` | Validate skill quality | Tooling |
+| `/oneshot-plan` | Full planning pipeline (brainstorm -> spec -> task breakdown) | Planning |
+| `/loop` | Persistent execution loop (don't stop until done) | Autonomous work |
+| `/team` | Spawn parallel agent team | Multi-file tasks |
 | `/statusline-config` | Customize statusline segments and themes | Tooling |
 
 ## Development Rules

@@ -92,3 +92,15 @@ Action: Explore -> Plan -> Execute queries -> Analyze -> Codex confirm -> Report
 Input: verify user auth is working correctly
 Action: Phase 1-6 flow -> Output diagnostic report
 ```
+
+## Red Flags - STOP
+
+If you catch yourself thinking these, you're rationalizing:
+
+| Thought | Reality |
+|---------|---------|
+| "Looks correct, no need to run" | Looking is not evidence. Run the verification query. |
+| "Previous run proved it works" | Previous run is stale. Fresh evidence required. |
+| "Read-only means low risk" | Read-only queries can still return wrong conclusions if poorly designed. |
+| "Skip Codex confirmation" | Independent confirmation catches what single-perspective analysis misses. |
+| "Just check one data source" | Verification requires cross-referencing multiple sources. |
